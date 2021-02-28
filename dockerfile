@@ -5,7 +5,6 @@ RUN apt-get update                                              \
     && a2enmod rewrite                                          \
     && chmod 777 -R -c /var/www
     
-RUN chown -R ./SemestralProyectos/databases/mysql_3.7/schemas/db_killme
 
 # composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
