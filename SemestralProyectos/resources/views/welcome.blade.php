@@ -97,4 +97,9 @@
             </div>
         </div>
     </body>
-</html>
+    <a href="https://dev.to/dendihandian" onclick="return confirm('Do you want to go?')">Link</a>
+
+
+
+    </html>
+

@@ -1,0 +1,110 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+$botones:#681a5d;
+
+.formularios{
+
+    background: red;
+    display: flex;
+}
+
+.btn-primary{
+
+    background: $botones !important ;
+
+}
+
+.fondonavar{
+
+    background: rgb(104,26,93);
+    background: linear-gradient(90deg, rgba(104,26,93,1) 0%, rgba(80,25,75,1) 98%, rgba(104,26,93,1) 100%);
+}
+
+.shadow-4 {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),
+                0 2px 2px rgba(0,0,0,0.15),
+                0 4px 4px rgba(0,0,0,0.15),
+                0 8px 8px rgba(0,0,0,0.15);
+  }
+
+  .shadow-5 {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+                0 2px 2px rgba(0,0,0,0.12),
+                0 4px 4px rgba(0,0,0,0.12),
+                0 8px 8px rgba(0,0,0,0.12),
+                0 16px 16px rgba(0,0,0,0.12);
+  }
+
+  .shadow-6 {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11),
+                0 2px 2px rgba(0,0,0,0.11),
+                0 4px 4px rgba(0,0,0,0.11),
+                0 8px 8px rgba(0,0,0,0.11),
+                0 16px 16px rgba(0,0,0,0.11),
+                0 32px 32px rgba(0,0,0,0.11);
+  }
+
+  // 锐利
+  .shadow-sharp {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25),
+                0 2px 2px rgba(0,0,0,0.20),
+                0 4px 4px rgba(0,0,0,0.15),
+                0 8px 8px rgba(0,0,0,0.10),
+                0 16px 16px rgba(0,0,0,0.05);
+  }
+
+  // 扩散
+  .shadow-diffuse {
+      box-shadow: 0 1px 1px rgba(0,0,0,0.08),
+                  0 2px 2px rgba(0,0,0,0.12),
+                  0 4px 4px rgba(0,0,0,0.16),
+                  0 8px 8px rgba(0,0,0,0.20);
+  }
+
+  // 柔和
+  .shadow-dreamy {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+                0 2px 4px rgba(0,0,0,0.07),
+                0 4px 8px rgba(0,0,0,0.07),
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07),
+                0 32px 64px rgba(0,0,0,0.07);
+  }
+
+  // 更短
+  .shadow-shorter {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11),
+                0 2px 2px rgba(0,0,0,0.11),
+                0 4px 4px rgba(0,0,0,0.11),
+                0 6px 8px rgba(0,0,0,0.11),
+                0 8px 16px rgba(0,0,0,0.11);
+  }
+
+  // 更长
+  .shadow-longer {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09),
+                0 4px 2px rgba(0,0,0,0.09),
+                0 8px 4px rgba(0,0,0,0.09),
+                0 16px 8px rgba(0,0,0,0.09),
+                0 32px 16px rgba(0,0,0,0.09);
+  }
+
+
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+

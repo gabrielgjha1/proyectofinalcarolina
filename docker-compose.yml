@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: db_killme
+      MYSQL_DATABASE: proyectofinal
       MYSQL_USER: root
       MYSQL_PASSWORD: userfull
     ports:

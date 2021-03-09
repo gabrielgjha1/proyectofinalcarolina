@@ -46,9 +46,9 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '173.22.100.0/24'),
+            'host' => env('DB_HOST', '173.22.100.9'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'db_killme'),
+            'database' => env('DB_DATABASE', 'proyectofinal'),
             'username' => env('DB_USERNAME', 'root'),
             'password' => env('DB_PASSWORD', 'root'),
             'unix_socket' => env('DB_SOCKET', ''),

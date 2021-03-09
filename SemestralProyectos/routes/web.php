@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+    Route::get('/', 'inicioController@inicio')->name('inicio.index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/proyectos/create','ProyectoController@create')->name('proyecto.create');
+Route::get('/proyectos','ProyectoController@index')->name('proyecto.index');
+Route::get('/proyectos/{proyecto}/edit','ProyectoController@edit')->name('proyecto.edit');
+
+Route::put('/proyectos/rechazarproyecto/{proyecto}','ProyectoController@rechazarProyecto')->name('proyecto.rechazar');
+Route::put('/proyectos/confimarproyecto/{proyecto}','ProyectoController@ConfirmarProyecto')->name('proyecto.confirmar');
+
+Route::post('/proyectos','ProyectoController@store')->name('proyecto.store');
