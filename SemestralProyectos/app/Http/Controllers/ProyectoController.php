@@ -19,7 +19,7 @@ class ProyectoController extends Controller
      */
     public function index()
     {
-        // $this->authorize('view',Auth()->user());
+        $this->authorize('view',Auth()->user());
 
         $proyectos = Proyecto::all();
 
@@ -53,7 +53,7 @@ class ProyectoController extends Controller
             'telefono_participante'=>'required',
             'telefono_residencial_p'=>'required',
             'actividad'=>'required',
-            'tiempo'=>'required',
+            'tiempo'=>'required|integer|min:0|',
             'titulo'=>'required',
             'objetivo'=>'required',
             'descripcionP'=>'required',

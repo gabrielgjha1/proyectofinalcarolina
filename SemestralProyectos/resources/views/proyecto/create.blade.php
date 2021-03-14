@@ -275,7 +275,7 @@
 
                             </td>
                             <td>
-                                <input   type="number"  name="telefono_residencial_p[]" placeholder="teléfono Residencial"/>
+                                <input  required type="number"  name="telefono_residencial_p[]" placeholder="teléfono Residencial"/>
 
                             </td>
                         </tr>
@@ -295,7 +295,7 @@
                         <table class="table"  id="tabla2">
                             <tr class="fila-fija2">
                                 <td> <textarea required class="form-control" name="actividad[]" id="exampleFormControlTextarea1" placeholder="Descripcion" rows="3"></textarea></td>
-                                <td required colspan="2"><input  width="100"   name="tiempo[]" class="form-control" placeholder="teléfono Residencial"/></td>
+                                <td required colspan="2"><input  type="number"  width="100"   name="tiempo[]" class="form-control" placeholder="Tiempo"/></td>
                                 <td class="eliminar "><input  type="button" class="btn btn-danger"   value="Menos -"/></td>
                             </tr>
 
