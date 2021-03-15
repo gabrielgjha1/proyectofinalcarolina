@@ -53,7 +53,7 @@ class ProyectoController extends Controller
             'telefono_participante'=>'required',
             'telefono_residencial_p'=>'required',
             'actividad'=>'required',
-            'tiempo'=>'required|integer|min:0|',
+            'tiempo'=>'required',
             'titulo'=>'required',
             'objetivo'=>'required',
             'descripcionP'=>'required',
